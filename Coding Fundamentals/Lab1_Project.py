@@ -1,0 +1,5 @@
+length1 = input ('Input the length of the first side of a rectangle: ')
+width1 = input ('Input the length of the first side of a rectangle: ')
+length1int = int(length1)
+width1int  = int(width1)
+print (length1int*width1int)
