@@ -1,9 +1,9 @@
-userop = int(input ("Please select an option\n1. Add 2 times\n2. Find the difference between 2 times\n3. Convert to Hours\n4. Convert to Minutes\n.5 Convert Minutes to Time\n6. Convert Hours to Time\n7. Convert Days to Time\n8. Exit"))
+userop = int(input ("Please select an option\n1. Add 2 times\n2. Find the difference between 2 times\n3. Convert to Hours\n4. Convert to Minutes\n.5 Convert Minutes to Time\n6. Convert Hours to Time\n7. Convert Days to Time\n8. Exit\n"))
 if userop == 1:
     time1 = str(input ("please enter time DD:HH:MM: "))
     time2 = str(input ("please enter time DD:HH:MM: "))
-    time1 = time1.split()
-    time2 = time2.split()
+    time1 = time1.split(":")
+    time2 = time2.split(":")
     min1 = int(time1[2])
     hour1 = int(time1[1])
     day1 = int(time1[0])
