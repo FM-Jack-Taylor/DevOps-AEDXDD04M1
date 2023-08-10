@@ -11,6 +11,8 @@ result4 = cur.execute("SELECT * FROM salesperson WHERE county IN ('London','Surr
 result5 = cur.execute("SELECT * FROM dept WHERE sales_target='5.0000'").fetchall()
 result6 = cur.execute("SELECT * FROM company WHERE company_no BETWEEN 1000 AND 2000").fetchall()
 
+conn.close()
+
 print("\n*****Companys in London*****")
 for line in result1:
     print(line)
