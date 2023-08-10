@@ -30,12 +30,18 @@ for lines in rows:
     line = line + 1
 #print(sales)
 
-line = 0
 
-for total in sales:
-    sales[0] = sales.pop(0)
-    #sumsales = sum(sales)
+line = 1
+for colum in sales:
+    print(colum)
+    colum1 = (colum[1:6])
+    map1 = map(int, colum1)
+    colum2 = list(map1)
+    print(colum2)
+    input()
+    columsum = sum(colum2)
+    print (columsum)
     line = line + 1
 
+input
 
-print(sales)
